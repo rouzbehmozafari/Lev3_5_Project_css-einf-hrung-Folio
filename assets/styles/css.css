@@ -140,29 +140,64 @@ section p, table *{
 section p:nth-of-type(2){
     /* text-align: right; */
     width: 45%;
-    line-height: 20px;
+    line-height: 30px;
     margin-left: 55%;
+    font-style: normal;
+    font-weight: normal;
 }
 
 table {
     margin: 10% 0 auto;
     text-align: left;
+    width: 50%;
+    margin-left: 50%;
+    margin-right: 0;
+    font-weight: lighter;
+    border-collapse: collapse;
+
 }
+tr {
+    border-bottom: solid 1px var(--darkbl);
+}
+
 td {
     padding: 4% 0;
+    /* border-bottom: solid 1px var(--darkbl); */
+
 }
 tr th {
     text-align: right;
     font-weight: lighter;
+
+}
+
+tr p {
+    font-size: 10px;
+    text-align: right;
+    font-family: 'Open Sans';
+}
+
+tr td {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal; 
 }
 
 tr td:last-child {
-    font-size: 10px;
+    width: 5%;
+}
+
+svg {
+    width: 10%;
+}
+
+table + div  {
+    margin-top: 10vh;
     text-align: right;
 }
-tr td + td {
-    margin-right: 0%;
-}
+
+
+
 
 
 /* Assets:
