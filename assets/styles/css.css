@@ -1,0 +1,208 @@
+/* defining variables */
+:root {
+    --darkbl: #042A5A;
+    --bg: #F4C4C4;
+    --darkg: #282B29;
+    --red: #7D2222;
+    --yell: #DEB873;
+    --gry: #D2D2D2;
+    --gr: #388883;
+}
+@font-face {
+    font-family: Athene;
+    src: url('/assets/other/Athene.otf');
+  }
+
+  /* general styles */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', Athene;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkbl);
+}
+
+p{
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0;
+}
+
+/* header */
+
+header {
+    background-color: var(--gry);
+    color: var(--darkbl);
+}
+
+nav {
+    border-bottom: solid 2px var(--darkbl);
+    padding: 1vh 4vw;
+    text-align: center;
+    font-size: 13px;
+    /* margin-bottom: 4vh; */
+}
+
+nav div {
+    display: inline-block;
+    width: 49%;
+}
+nav div:first-child {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+nav div:last-child {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+/* nav div:nth-child(2){
+    padding: auto 400px;
+} */
+
+header div {
+    text-align: center;
+}
+
+div i {
+    font-size: 100px;
+}
+
+header div h1 {
+    display: inline;
+}
+hr{
+    border: none;
+    border-top: 3px solid var(--darkbl);
+    color: var(--darkbl);
+    overflow: visible;
+    text-align: center;
+    height: 3em;
+    width: 10vw;
+    display: inline-block;
+    margin-right: 2vw;
+}    
+
+header nav+ div div {
+    border-bottom:  2px solid var(--darkbl);
+    margin: auto 10vw;  
+    padding : 2%
+
+}
+
+header>div:last-child {
+    width: 334px;
+    margin : 5vh auto;
+    margin-bottom: 0;
+    padding-bottom: 10vh;
+}
+
+header>div:last-child div {
+
+    text-align: left;
+    margin-top: 5%;
+}
+
+/* sections */
+
+section, footer {
+    padding: 5%;
+}
+
+section:first-child {
+    background-color: var(--bg);
+}
+
+section h1 {
+    margin-left: -5%;
+    padding: 5% 0;
+    font-weight: lighter;
+}
+
+section p, table *{
+    font-family:'Open Sans' ;
+}
+
+section p:nth-of-type(2){
+    /* text-align: right; */
+    width: 45%;
+    line-height: 20px;
+    margin-left: 55%;
+}
+
+table {
+    margin: 10% 0 auto;
+    text-align: left;
+}
+td {
+    padding: 4% 0;
+}
+tr th {
+    text-align: right;
+    font-weight: lighter;
+}
+
+tr td:last-child {
+    font-size: 10px;
+    text-align: right;
+}
+tr td + td {
+    margin-right: 0%;
+}
+
+
+/* Assets:
+
+SC20"
+TEMPORARY FOLIO
+TEMPORARY FOLIO  
+©
+DESIGNER & DEVELOPER
+.01
+RELEASE
+FIRST OF ALL, IT IS AMAZING HAVING YOU HERE, WELCOME! I'M A PERSON WHO'S COMPLETELY IN LOVE WITH DESIGN, I AM PASSIONATE ABOUT TECHNOLOGY AND INTERACTIVITY, THE TWO FIELDS WHICH I'D LOVE TO STAY MORE INVOLVED IN AND KEEP ABOUT. CONTINUE TO GROW AND IMPROVE EVERY DAY!
+PRINCIPLES & VALUES
+01.	
+Integrity.
+Always working with accuracy and transparency.
+
+
+Assets:
+
+02.
+Understanding.
+Well-made website require effort and comprehension.
+03.
+Performance.
+Focus is the key, every minute is important.
+.02
+WORKS
+EVERY WEBSITE IS MEANINGFUL AND REQUIRE A LOT OF EFFORT TO REACH THE GOALS, REAGARDLESS OF WHICH GOALS YOU ARE LOOKING TO MEET, I CAN WORK WITH YOU TO REACH THEM. BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN AND SEE MY SKILLS SET. I HOPE YOU ENJOY THEM:
+RODRIGO MARCONATTO
+KÄTHE KOLLWITZ
+Assets:
+
+VICTOR FOLIO 2019"
+BORED OF AUTHORITY
+.03
+CONTACT
+NOW THAT YOU ALREADY KNOW ME, IT IS TIME TO START TO BUILD SOMETHING AMAZING TOGETHER.
+Email
+Dribbble
+Behance
+Github */
+
