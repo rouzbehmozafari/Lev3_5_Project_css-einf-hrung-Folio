@@ -46,6 +46,8 @@ body {
 header {
     background-color: var(--gry);
     color: var(--darkbl);
+    padding-top: 5vh;
+
 }
 
 nav {
@@ -54,6 +56,9 @@ nav {
     text-align: center;
     font-size: 13px;
     /* margin-bottom: 4vh; */
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav div {
@@ -84,6 +89,7 @@ div i {
 
 header div h1 {
     display: inline;
+    
 }
 hr{
     border: none;
@@ -101,6 +107,7 @@ header nav+ div div {
     border-bottom:  2px solid var(--darkbl);
     margin: auto 10vw;  
     padding : 2%
+    
 
 }
 
