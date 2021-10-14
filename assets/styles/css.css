@@ -35,6 +35,11 @@ p{
 h1 {
     font-size: 100px;
 }
+h2 {
+    font-size: 70px;
+    color: var(--red);
+    font-weight: lighter;
+}
 
 body {
     max-width: 1440px;
@@ -130,11 +135,11 @@ section, footer {
     padding: 5%;
 }
 
-section:first-child {
+section:nth-of-type(odd) {
     background-color: var(--bg);
 }
 
-section h1 {
+section:nth-of-type(odd) h1 {
     margin-left: -5%;
     padding: 5% 0;
     font-weight: lighter;
@@ -148,9 +153,11 @@ section p:nth-of-type(2){
     /* text-align: right; */
     width: 45%;
     line-height: 30px;
-    margin-left: 55%;
     font-style: normal;
     font-weight: normal;
+}
+section:nth-of-type(odd) p:nth-of-type(2){
+    margin-left: 55%;
 }
 
 table {
@@ -203,9 +210,77 @@ table + div  {
     text-align: right;
 }
 
+/* second section */
 
+section:nth-of-type(even){
+    background-color: var(--yell);
+}
 
+section:nth-of-type(even) h1 {
+    text-align: right;
+    margin-right: -5%;
+    padding: 5% 0;
+    font-weight: lighter;
+}
 
+section:nth-of-type(even) p {
+    text-align: right;
+
+}
+
+section:nth-of-type(even) p:nth-of-type(2){
+    /* margin-r: 55%; */
+    text-align: left;
+}
+
+section:nth-of-type(2)>div {
+    margin: 20vh 0;
+    height: 60vh;
+}
+
+section:nth-of-type(2) div {
+    background-image: url('/assets/images/Lev3_5_css-einführung-Folio-img/bg-marconatto-1.jpg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(2) div:nth-of-type(even) {
+    text-align: right;
+    background-position: left;
+}
+section:nth-of-type(2) div:nth-of-type(2) {
+    background-image: url('/assets/images/Lev3_5_css-einführung-Folio-img/kathe_cover-1.jpg');
+
+}
+section:nth-of-type(2) div:nth-of-type(3) {
+    background-image: url('/assets/images/Lev3_5_css-einführung-Folio-img/bg-nicole-1.jpg');
+}
+section:nth-of-type(2) div:nth-of-type(4) {
+    background-image: url('/assets/images/Lev3_5_css-einführung-Folio-img/boa_cover-1.jpg');
+}
+
+/* last page */
+
+section:last-child {
+    background-color: var(--gry);
+    color: var(--gr);
+}
+
+section:last-child p:nth-of-type(2) {
+    padding: 10%;
+    margin: auto;
+    font-size: 1.5em;
+}
+ul {
+    line-height: 200%;
+}
+
+li {
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
 
 /* Assets:
 
