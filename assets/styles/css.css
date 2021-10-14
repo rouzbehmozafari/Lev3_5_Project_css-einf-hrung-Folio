@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: Athene;
-    src: url('/assets/other/Athene.otf');
+    src: url('assets/other/Athene.otf');
   }
 
   /* general styles */
@@ -250,14 +250,14 @@ section:nth-of-type(2) div:nth-of-type(even) {
     background-position: left;
 }
 section:nth-of-type(2) div:nth-of-type(2) {
-    background-image: url('/assets/images/Lev3_5_css-einführung-Folio-img/kathe_cover-1.jpg');
+    background-image: url('assets/images/Lev3_5_css-einführung-Folio-img/kathe_cover-1.jpg');
 
 }
 section:nth-of-type(2) div:nth-of-type(3) {
-    background-image: url('/assets/images/Lev3_5_css-einführung-Folio-img/bg-nicole-1.jpg');
+    background-image: url('assets/images/Lev3_5_css-einführung-Folio-img/bg-nicole-1.jpg');
 }
 section:nth-of-type(2) div:nth-of-type(4) {
-    background-image: url('/assets/images/Lev3_5_css-einführung-Folio-img/boa_cover-1.jpg');
+    background-image: url('assets/images/Lev3_5_css-einführung-Folio-img/boa_cover-1.jpg');
 }
 
 /* last page */
